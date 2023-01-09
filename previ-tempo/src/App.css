@@ -1,0 +1,355 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Falling Sky', sans-serif;
+  /* display: flex; */
+  background-color: rgb(34, 8, 164);
+}
+
+.header-login {
+  display: flex;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  /* font-family: 'Cloudee', sans-serif; */
+  justify-content: center;
+  color: rgb(233, 177, 36);
+  align-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: url(./assets/ceu.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.nuvem-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/nuvem.png);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+.nuvem-header img {
+  width: 100px;
+}
+
+.header-login h1 {
+  font-size: 4em;
+  text-shadow: 4px 4px 5px rgb(78, 168, 246); 
+}
+
+.header-login h1 span {
+  color: rgb(34, 8, 164);
+  font-family: 'Falling Sky', sans-serif;
+  margin: 10px;
+}
+
+.header-geral {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  /* font-family: 'Cloudee', sans-serif; */
+  /* justify-content: center; */
+  color: rgb(233, 177, 36);
+  /* align-content: center; */
+  align-items: center;
+  height: 400px;
+  background-image: url(./assets/ceu.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.nuvem-geral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/nuvem.png);
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+}
+
+.header-geral h1 {
+  font-size: 4em;
+  text-shadow: 4px 4px 5px rgb(78, 168, 246); 
+}
+
+.header-geral h1 span {
+  color: rgb(34, 8, 164);
+  font-family: 'Falling Sky', sans-serif;
+  margin: 10px;
+}
+
+.header-geral nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.header-geral nav ul li {
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  align-items: center;
+  justify-self: center;
+}
+
+.header-geral nav ul li a {
+  /* align-self: center; */
+  text-decoration: none;
+  color: rgb(34, 8, 164);
+  font-size: large;
+  text-shadow: 4px 4px 5px rgb(123, 177, 224); 
+}
+
+.header-geral nav ul li a:hover {
+  color: rgb(233, 177, 36)
+}
+
+.header-geral h4 {
+  display: flex;
+  /* background-color: rgb(233, 177, 36); */
+  color: rgb(233, 177, 36);
+  align-self: flex-start;
+  font-size: 2em;
+  text-shadow: 4px 4px 5px rgb(12, 26, 76); 
+}
+
+
+/* --------------------------------- login -------------------------------------- */
+
+.form-login {
+  border-radius: 15px;
+  margin: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./assets/nuvens2.jpg);
+  /* opacity: 0.8; */
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.login-form {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login h3 {
+  border-radius: 10px;
+  background-color: rgb(34, 8, 164);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.form-login input {
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  font-family: 'Falling Sky', sans-serif;
+  text-align: center;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.form-login button {
+  align-self: center;
+  border: none;
+  color: blue;
+  font-weight: 700;
+  height: 30px;
+  width: 100px;
+  font-family: 'Falling Sky', sans-serif;
+  border-radius: 10px;
+  background-color: rgb(233, 177, 36);
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.form-login button:hover {
+  color: white;
+}
+
+/* --------------------- pesqusa ----------------- */
+
+.pesquisa {
+  border-radius: 15px;
+  margin: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./assets/ceu.jpg);
+  /* opacity: 0.8; */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.pesquisa button {
+  align-self: center;
+  border: none;
+  color: blue;
+  font-weight: 700;
+  height: 40px;
+  width: 100px;
+  font-family: 'Falling Sky', sans-serif;
+  border-radius: 10px;
+  background-color: rgb(233, 177, 36);
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+ /* ------------------------ Card -------------------- */
+
+.resultado-pesquisa {
+  border-radius: 15px;
+  margin: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./assets/ceu-bkg.jpg);
+  /* opacity: 0.8; */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.resultado-pesquisa button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(233, 177, 36);
+  color: blue;
+  font-weight: 700;
+  height: 40px;
+  font-size: 12px;
+  min-width: 100px;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.resultado-pesquisa button:hover {
+  color: white;
+}
+
+.card {
+  border-radius: 10px;
+  gap: 10px;
+  width: 250px;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(118, 120, 242, 0.8);
+  color: aliceblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.city-temp {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.temperatura {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.temp-condition {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-button {
+  display: flex;
+  gap: 10px;
+}
+
+/* ------------------------ Favoritos ---------------------- */
+
+.title {
+  border-radius: 15px;
+  margin: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./assets/nuvens2.jpg);
+  /* opacity: 0.8; */
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
+
+.title h1 {
+  color: white;
+  /* font-size: 3em; */
+  text-shadow: 4px 4px 5px rgb(9, 59, 102); 
+}
+
+/* ------------------ Previsao 10 dias --------------------- */
+
+.days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.days ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  color: white;
+  text-shadow: 4px 4px 5px rgb(9, 59, 102);
+  border-radius: 15px;
+  margin: 10px;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./assets/nuvens2.jpg);
+  /* opacity: 0.8; */
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  box-shadow: 3px 2px 2px 1px rgb(22, 6, 113);
+}
